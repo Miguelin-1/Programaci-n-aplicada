@@ -1,0 +1,132 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e3e9ff;
+    color: #001f5b;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Encabezado --- */
+header {
+    background-color: #0033cc;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* --- Sección de introducción --- */
+.introduccion {
+    text-align: center;
+    padding: 30px;
+}
+
+.introduccion p {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 10px;
+}
+
+/* --- Tabla de títulos --- */
+.tabla-titulos {
+    background-color: #f7f8ff;
+    padding: 30px;
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 2px solid #0033cc;
+    padding: 12px;
+}
+
+th {
+    background-color: #0033cc;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #eaf0ff;
+}
+
+/* --- Galería de imágenes --- */
+.imagenes {
+    text-align: center;
+    padding: 40px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* --- Pie de página --- */
+footer {
+    background-color: #001f5b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+/* --- Apartado del repositorio --- */
+.repositorio {
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f3ff;
+    border-top: 3px solid #0033cc;
+}
+
+.repositorio h2 {
+    color: #001f5b;
+    margin-bottom: 10px;
+}
+
+.repositorio a {
+    text-decoration: none;
+    color: white;
+    background-color: #0033cc;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.repositorio a:hover {
+    background-color: #001f5b;
+}
+
